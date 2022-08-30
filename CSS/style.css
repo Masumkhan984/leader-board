@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap');
 
 * {
     margin: 0;
@@ -168,14 +168,40 @@ Courses Area
     margin-top: 40px;
 }
 
-.course>p {
+.course p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14.6913px;
-    line-height: 17px;
+    line-height: 37px;
     color: #ED6B4F;
 }
-.time_rating{
+
+.time_rating {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rating {
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+
+.rating>img {
+    width: 12px;
+}
+
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.time>img {
+    width: 12px;
 }
